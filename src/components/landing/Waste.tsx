@@ -25,7 +25,7 @@ const Waste = () => {
             className="object-contain md:h-200 md:w-200"
           />
           <div className="flex justify-center">
-            <span className="text-7xl w-auto flex md:w-[80px] h-[80px] relative md:top-80 md:-left-1 bg-primary  p-1 rounded-full justify-center">
+            <span className="md:text-7xl text-4xl w-auto flex md:w-[80px] md:h-[80px] relative md:top-80 md:-left-1 bg-primary  p-1 rounded-full justify-center">
               <RiRecycleFill color="white" />
             </span>
           </div>

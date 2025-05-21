@@ -37,7 +37,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed w-full z-[100] py-2 ${
+      className={`fixed w-full z-[100]  ${
         scrolled
           ? "bg-[#575757CC] transition-colors duration-300"
           : "bg-transparent"
@@ -51,12 +51,12 @@ const Navbar = () => {
               <Image
                 alt="logo"
                 src="/images/logo.png"
-                className="w-[120px] min-w-[120px] sm:w-[155px] h-[60px] lg:w-[200px] lg:h-[200px] md:w-[180px] p-1 sm:p-2 object-contain bg-transparent rounded-xl"
+                className="w-[120px] min-w-[120px] sm:w-[155px] h-[60px] lg:w-35 lg:h-35 md:w-[180px] p-1 sm:p-2 object-contain bg-transparent rounded-xl"
                 height={72}
                 width={217}
               />
             </Link>
-            <h2 className="w-10 font-inter text-white font-bold md:text-2xl">
+            <h2 className="w-10 hidden md:flex font-inter text-white font-bold text-2xl">
               SELRAHC CONGLOMERATE COMPANIES
             </h2>
           </div>
@@ -91,7 +91,6 @@ const Navbar = () => {
                 <MdOutlinePhone className="flex-shrink-0" />
               </Link>
             </Button>
-            
 
             {/* Hamburger for Mobile */}
             <button
@@ -110,7 +109,7 @@ const Navbar = () => {
                 <div key={link.id}>
                   <Link
                     href={link.url}
-                    className="flex items-center gap-2 text-white text-xl font-medium"
+                    className="flex items-center gap-2 relative justify-center left-0 text-white text-xl font-medium"
                     onClick={() => setMenuOpen(false)}
                   >
 

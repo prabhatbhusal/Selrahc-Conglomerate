@@ -6,7 +6,7 @@ import { coreimg } from '../../constants/data';
 import Image from 'next/image';
 const Coreservices = () => {
   return (
-    <section className="px-30 py-10">
+    <section className="md:px-30 md:py-10 px-10 py-5">
       <div>
         <div className="flex flex-col justify-center text-center items-center">
           <h2 className="text-with-gradient font-bold md:text-4xl text-2xl">

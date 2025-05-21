@@ -3,7 +3,7 @@ import {trustimg} from '@/constants/data'
 import Image from 'next/image';
 const Trust = () => {
   return (
-    <section className='px-[30]'>
+    <section className='md:px-30'>
       <div className='flex flex-col gap-5'>
         <div className='flex flex-col justify-center items-center'>
           {" "}
@@ -20,7 +20,7 @@ const Trust = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-4 grid-cols-2 gap-5 ">
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-5 ">
           {trustimg.map((link, idx) => (
             <div
               className="flex flex-col justify-center items-center"
