@@ -6,6 +6,7 @@ import React from 'react'
 import Workspace from '@/components/landing/Workspace'
 import Choose from '@/components/landing/Choose'
 import Reviews from '@/components/landing/Reviews'
+import Service from '@/components/landing/Service'
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
       <Workspace />
       <Choose/>
       <Reviews/>
+      <Service/>
     </main>
   );
 }
