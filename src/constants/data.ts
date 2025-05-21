@@ -50,9 +50,17 @@ export const trustimg = [
     text: " Years of Industry Experience",
   },
 ];
-export const coreimg=[
+export const coreimg = [
   {
-    url:'/images/Core1.png',
-    text:'DUCTLESS BLASTING',
-    
-}]
+    url: "/images/Core1.png",
+    text: "DUCTLESS BLASTING",
+  },
+  {
+    url: "/images/Core2.png",
+    text: "SOFT WASH",
+  },
+  {
+    url: "/images/Core3.png",
+    text: "PRESSURE WASHING",
+  },
+];
