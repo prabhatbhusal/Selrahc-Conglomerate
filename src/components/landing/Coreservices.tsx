@@ -6,13 +6,13 @@ import { coreimg } from '../../constants/data';
 import Image from 'next/image';
 const Coreservices = () => {
   return (
-    <section className="px-30">
+    <section className="px-30 py-10">
       <div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center text-center items-center">
           <h2 className="text-with-gradient font-bold md:text-4xl text-2xl">
             OUR CORE RESTORATION SERVICES
           </h2>
-          <p>
+          <p className="md:w-200">
             At Selrahc Conglomerate Companies, we go beyond cleaning — we
             restore integrity, preserve beauty, and extend the life of your
             property. Our comprehensive services are tailored to tackle the
@@ -22,17 +22,29 @@ const Coreservices = () => {
         <div>
           <div className="grid md:grid-cols-3 gap-5 grid-cols-1">
             {coreimg.map((link, idx) => (
-              <div className="flex flex-col justify-center items-center " key={idx}>
-                <Image src={link.url} alt="alt" width={2000} height={50} />
+              <div
+                className="flex flex-col justify-center items-center hover:scale-103 transition-all ease-in-out duration-500 "
+                key={idx}
+              >
+                <Image
+                  src={link.url}
+                  alt="alt"
+                  width={2000}
+                  height={50}
+                  className=""
+                />
                 <h2 className="text-with-gradient font-bold md:text-4xl text-2xl">
                   {link.text}
                 </h2>
-                <span className="relative bottom-100 md:text-5xl  md:left-58">
+                <Link
+                  href="/services"
+                  className="md:relative bottom-100 md:text-5xl text-primary  md:left-58"
+                >
                   <BsFillArrowUpRightCircleFill />
-                </span>
+                </Link>
                 <Link
                   href={`/services`}
-                  className="flex  gap-3 justify-center items-center"
+                  className="flex bottom-10 relative gap-3  hover:underline transition-all ease-in-out duration-500 justify-center items-center"
                 >
                   Learn More <MdKeyboardDoubleArrowRight />
                 </Link>
