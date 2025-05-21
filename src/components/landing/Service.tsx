@@ -9,7 +9,7 @@ import { RiHandSanitizerFill } from "react-icons/ri";
 import { FaCircleCheck } from "react-icons/fa6";
 
 const Service = () => {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
     <section className="md:px-30 px-10 top-200 relative">
