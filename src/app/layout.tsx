@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter} from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/ui/Navbar";
  // Ensure this is the correct module for Tanker
 
 // Example: app/layout.tsx or pages/_app.tsx
@@ -33,7 +34,10 @@ export default function RootLayout({
         <link href="https://api.fontshare.com/v2/css?f[]=tanker@400,700,500,900,800&display=swap" rel="stylesheet"/>
 
       </head>
-      <body className={`${inter.variable}`}>{children}</body>
+      <body className={`${inter.variable}`}>
+        <Navbar/>
+        {children}
+        </body>
     </html>
   );
 }
