@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Tips = () => {
   return (
-    <section className="mt-200 text-white px-[50px] py-5 bg-[url(/images/tips.png)] bg-cover h-[120vh] flex flex-col items-center justify-center w-full">
+    <section className="mt-210 relative top-20 text-white px-[50px] py-5 bg-[url(/images/tips.png)] bg-cover h-[120vh] flex flex-col items-center justify-center w-full">
       <div className=' flex flex-col gap-10'>
         <div className="flex flex-col justify-center items-center text-center md:px-100">
           <h2 className=" font-bold md:text-4xl text-2xl">
@@ -36,7 +36,7 @@ const Tips = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center  ">
+          <div className="flex flex-col items-center justify-center   ">
             <Image
               src="/images/tips2.png"
               alt="alt"

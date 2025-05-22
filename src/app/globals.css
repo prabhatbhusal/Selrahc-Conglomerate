@@ -190,3 +190,30 @@
     background-size: 100% calc(2vw + 91px);
   }
 }
+/* app/globals.css */
+.carousel-container {
+  position: relative;
+}
+
+.testimonial-text {
+  line-height: 1.6;
+}
+
+.testimonial-author {
+  margin-top: 1rem;
+}
+
+/* Add these transitions for smooth slide changes */
+.relative.overflow-hidden {
+  transition: all 0.5s ease-in-out;
+}
+
+/* Add this if you want fade transitions */
+.carousel-slide {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-slide.active {
+  opacity: 1;
+} 

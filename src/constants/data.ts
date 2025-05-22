@@ -186,3 +186,18 @@ export const footerContactInfo = [
     content: "USA",
   },
 ];
+
+export const reviews = [
+  {
+    author: "Mark R., Commercial Property Owner",
+    content:
+      "Selrahc did a fantastic job restoring our building’s brick façade. What impressed me most was their professionalism and how clean they left everything afterward. Highly recommended!",
+    url: "",
+  },
+  {
+    author: "Evelyn S., Home Renovation Client",
+    content:
+      "From my first call to the final walkthrough, the Selrahc team was professional, honest, and skilled. My home restoration project was in great hands.",
+    url: "",
+  },
+];
