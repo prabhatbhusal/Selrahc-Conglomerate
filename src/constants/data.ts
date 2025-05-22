@@ -84,3 +84,105 @@ export const servimg = [
     btntext: "Get a Free Quote",
   },
 ];
+
+export const footerimg = [
+  {
+    title: "HELPFUL TOOLS",
+    items: [
+      {
+        item: "Dustless Blasting Services",
+      },
+      {
+        item: "City Garbage Trucks",
+      },
+      {
+        item: "Interior & Exterior Surface Cleaning",
+      },
+      {
+        item: "Surface Preparation & Coating Removal",
+      },
+      {
+        item: "Residential Property Cleaning",
+      },
+    ],
+  },
+  {
+    title: "ABOUT",
+    items: [
+      {
+        item: "Our Team",
+      },
+      {
+        item: "Testimonials",
+      },
+      {
+        item: "Projects",
+      },
+    ],
+  },
+  {
+    title: "SERVICE AREAS",
+    items: [
+      {
+        item: "Kentuckian",
+      },
+      {
+        item: "Indiana",
+      },
+      {
+        item: "All across United States",
+      },
+    ],
+  },
+
+];
+export const clientlogo = [
+  {
+    title: "REVIEWS",
+    items: [
+      {
+        url: "/icons/fb.png",
+      },
+      {
+        url: "/icons/insta.png",
+      },
+      {
+        url: "/icons/google.png",
+      },
+      {
+        url: "/icons/yelp.png",
+      },
+    ],
+  },
+  {
+    title: "PAY VIA",
+    items: [
+      {
+        url: "/icons/master.png",
+      },
+      {
+        url: "/icons/visa.png",
+      },
+      {
+        url: "icons/discover.png",
+      },
+    ],
+  },
+];
+export const footerContactInfo = [
+  {
+    url: "/icons/email.png",
+    title: "Email",
+    content: "cburns@sccompanies.co",
+  },
+  {
+    url: "/icons/call.png",
+    title: "Office",
+    content: "812 670 0620",
+  },
+  {
+    url: "/icons/address.png",
+    title: "Address",
+    content: "USA",
+  },
+];

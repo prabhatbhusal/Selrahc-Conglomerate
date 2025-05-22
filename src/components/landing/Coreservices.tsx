@@ -38,7 +38,7 @@ const Coreservices = () => {
                 </h2>
                 <Link
                   href="/services"
-                  className="md:relative bottom-100 md:text-5xl text-primary  md:left-58"
+                  className="md:relative bottom-90 md:text-5xl text-primary  md:left-52"
                 >
                   <BsFillArrowUpRightCircleFill />
                 </Link>

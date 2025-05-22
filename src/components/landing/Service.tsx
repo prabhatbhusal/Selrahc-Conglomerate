@@ -12,7 +12,7 @@ const Service = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <section className="md:px-30 px-10 top-200 relative">
+    <section className="md:px-[50px] px-10 top-200 relative">
       <div className="gap-10 flex flex-col">
         {servimg.map((link, idx) => (
           <div

@@ -4,7 +4,7 @@ import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import Image from 'next/image';
 const Workspace = () => {
   return (
-    <section>
+    <section className=''>
       <div>
         <div className="flex text-white flex-col justify-center items-center relative top-100 z-100">
           <h2 className=" font-bold md:text-4xl text-2xl">

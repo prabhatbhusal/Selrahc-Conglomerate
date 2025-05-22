@@ -7,6 +7,9 @@ import Workspace from '@/components/landing/Workspace'
 import Choose from '@/components/landing/Choose'
 import Reviews from '@/components/landing/Reviews'
 import Service from '@/components/landing/Service'
+import Tips from '@/components/landing/Tips'
+import Contact from '@/components/landing/Contact'
+import Footer from '@/components/ui/Footer'
 
 const page = () => {
   return (
@@ -19,6 +22,9 @@ const page = () => {
       <Choose/>
       <Reviews/>
       <Service/>
+      <Tips/>
+      <Contact/>
+      <Footer/>
     </main>
   );
 }
