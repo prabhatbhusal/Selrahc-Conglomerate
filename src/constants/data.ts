@@ -164,7 +164,7 @@ export const clientlogo = [
         url: "/icons/visa.png",
       },
       {
-        url: "icons/discover.png",
+        url: "/icons/discover.png",
       },
     ],
   },
